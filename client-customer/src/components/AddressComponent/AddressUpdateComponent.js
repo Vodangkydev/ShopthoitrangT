@@ -21,7 +21,7 @@ class AddressUpdate extends Component {
     return (
       <div className={style.container}>
         <div className={style.formContainer}>
-          <h2 className={style.title}>Cập NhậpĐịa Chỉ Nhận Hàng</h2>
+          <h2 className={style.title}>Cập Nhập Địa Chỉ Nhận Hàng</h2>
           <form>
             <input className={style.inputField} type="text" placeholder="Số Nhà/Đường" value={this.state.txtSonha} onChange={(e) => { this.setState({ txtSonha: e.target.value }) }} />
             <input className={style.inputField} type="text" placeholder="Phường/Xã" value={this.state.txtPhuong} onChange={(e) => { this.setState({ txtPhuong: e.target.value }) }} />
