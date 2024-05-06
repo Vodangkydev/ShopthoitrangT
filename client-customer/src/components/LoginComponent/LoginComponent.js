@@ -20,8 +20,8 @@ class Login extends Component {
         <div className={style.formContainer}>
           <h2 className={style.title}>Đăng Nhập</h2>
           <form>
-            <input className={style.inputField} type="text" placeholder="Tài Khoản" value={this.state.txtUsername} onChange={(e) => { this.setState({ txtUsername: e.target.value }) }} />
-            <input className={style.inputField} type="password" placeholder="Mật Khẩu" value={this.state.txtPassword} onChange={(e) => { this.setState({ txtPassword: e.target.value }) }} />
+            <input className={style.inputField} type="text" placeholder="Tài Khoản: admin" value={this.state.txtUsername} onChange={(e) => { this.setState({ txtUsername: e.target.value }) }} />
+            <input className={style.inputField} type="password" placeholder="Mật Khẩu: 123" value={this.state.txtPassword} onChange={(e) => { this.setState({ txtPassword: e.target.value }) }} />
             <button className={style.submitButton} type="submit" onClick={(e) => this.btnLoginClick(e)}>Đăng Nhập</button>
           </form>
           <button className={style.secondaryButton} type="button" onClick={(e) => this.btnResetPasswordClick(e)}>Quên Mật Khẩu</button>
