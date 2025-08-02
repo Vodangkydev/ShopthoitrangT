@@ -34,7 +34,9 @@ ShopthoitrangT/
 - **JWT** - Xác thực
 - **Nodemailer** - Gửi email
 - **Crypto** - Mã hóa
-
+  
+## video
+video demo: https://drive.google.com/file/d/1wZbomGikk2fkpwl5HxHqhliWoV8jnzDh/view?usp=drive_link
 ## 📦 Cài Đặt Và Chạy Dự Án
 
 ### Yêu Cầu Hệ Thống
@@ -214,7 +216,5 @@ Hệ thống sử dụng Nodemailer để gửi email:
 - Email xác nhận đăng ký
 - Email đặt lại mật khẩu
 - Email thông báo đơn hàng
-  
-## video
-video demo: https://drive.google.com/file/d/1wZbomGikk2fkpwl5HxHqhliWoV8jnzDh/view?usp=drive_link
+
 
