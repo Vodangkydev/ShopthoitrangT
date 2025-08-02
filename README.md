@@ -178,7 +178,6 @@ client-customer/src/
 ```
 
 ## 🔧 Tính Năng Chính
-
 ### Giao Diện Khách Hàng
 - ✅ Đăng ký/Đăng nhập tài khoản
 - ✅ Xem danh sách sản phẩm
@@ -205,17 +204,17 @@ client-customer/src/
 - ✅ Thống kê bán hàng
 
 ## 🔐 Bảo Mật
-
 - JWT Authentication
 - Mã hóa mật khẩu với Crypto
 - Validation dữ liệu đầu vào
 - CORS protection
 
 ## 📧 Email
-
 Hệ thống sử dụng Nodemailer để gửi email:
 - Email xác nhận đăng ký
 - Email đặt lại mật khẩu
 - Email thông báo đơn hàng
+  
+## video
 video demo: https://drive.google.com/file/d/1wZbomGikk2fkpwl5HxHqhliWoV8jnzDh/view?usp=drive_link
 
